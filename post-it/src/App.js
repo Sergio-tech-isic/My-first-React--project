@@ -86,7 +86,7 @@ function App() {
       <form>
         <input 
           type="text" 
-          placeholder="Buscar por título o contenido..." 
+          placeholder="Buscar por título..." 
           value={searchTerm} 
           onChange={(e) => setSearchTerm(e.target.value)} // Actualiza el estado con el valor del input
         />
